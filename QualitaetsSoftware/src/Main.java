@@ -30,15 +30,15 @@ public class Main
 
         switch (state)
         {
-            case SQ_States.NO_ERROR:
+            case NO_ERROR:
                 System.out.println("No Error occured.");
                 break;
 
-            case SQ_States.ONE_ERROR:
+            case ONE_ERROR:
                 System.out.println("One Error occured.");
                 break;
 
-            case SQ_States.MULTIPLE_ERRORS:
+            case MULTIPLE_ERRORS:
                 System.out.println("Multiple Errors occured.");
                 break;
 
